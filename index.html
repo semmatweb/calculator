@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+
+    <!-- links -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./fontawesome-free-6.0.0-beta3-web/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="main-header">
+            <div class="menu">
+                <button>&#9776;</button>
+                <p>Standard</p>
+            </div>
+            <button><i class="fa-solid fa-clock-rotate-left clock-icon"></i></button>
+        </div>
+        <div class="header">
+            <div class="exp-display">
+                <p class="exp"></p>
+            </div>
+            <div class="result-display">
+                <p class="result">0</p>
+            </div>
+        </div>
+        <div class="buttons">
+            <div class="first-row">
+                <button class="m-btn m-hide m-clear">MC</button>
+                <button class="m-btn m-hide">MR</button>
+                <button class="m-btn m-plus" id="m-plus">M+</button>
+                <button class="m-btn m-plus">M-</button>
+                <button class="m-btn m-plus">MS</button>
+                <button class="m-btn m-hide">M<sup><i class="fa fa-caret-down" aria-hidden="true"></i></sup></button>
+            </div>
+            <div class="btns">
+                <div class="row">
+                    <button class="btn percent">&#37;</button>
+                    <button class="btn sqrt">&radic;</button>
+                    <button class="btn sq-btn">&#119909;<sup>2</sup></button>
+                    <button class="btn" id="inverse"><sup>1</sup>/<sub>&#119909;</sub></button>
+                </div>
+                <div class="row">
+                    <button class="btn" id="ce-btn">CE</button>
+                    <button class="btn" id="clear-btn">C</button>
+                    <button class="btn bkspc">
+                        <img src="backspace.svg" alt="backspace icon">
+                    </button>
+                    <button class="btn operator">&divide;</button>
+                </div>
+                <div class="row">
+                    <button class="btn num">7</button>
+                    <button class="btn num">8</button>
+                    <button class="btn num">9</button>
+                    <button class="btn operator">&times;</button>
+                </div>
+                <div class="row">
+                    <button class="btn num">4</button>
+                    <button class="btn num">5</button>
+                    <button class="btn num">6</button>
+                    <button class="btn operator">&minus;</button>
+                </div>
+                <div class="row">
+                    <button class="btn num">1</button>
+                    <button class="btn num">2</button>
+                    <button class="btn num">3</button>
+                    <button class="btn operator">&plus;</button>
+                </div>
+                <div class="row">
+                    <button class="btn negate" style="font-size: 25px;">&#177;</button>
+                    <button class="btn num">0</button>
+                    <button class="btn dot"><strong>.</strong></button>
+                    <button class="btn operator" id="equals">=</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- script -->
+
+    <script src="./js/main.js"></script>
+</body>
+</html>
+<!-- <a href="https://wa.me/2348066436695">This Code Belongs to Mayowa</a> -->

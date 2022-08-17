@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    padding: 5px;
+    width: 320px;
+    background-color: #b9b8b8;
+    user-select: none;
+    border: 2px solid black;
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 23px;
+}
+
+.main-header button {
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    border: none;
+    background-color: transparent;
+}
+
+.result-display {
+    height: 100px;
+}
+
+.clock-icon {
+    font-size: 17px;
+}
+
+/* buttons */
+.btns {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.row {
+    display: flex;
+    gap: 4px;
+}
+
+.btns button {
+    height: 55px;
+    width: 75px;
+    border-radius: 0;
+    border: 1px solid transparent;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.btn {
+    font-size: 15px;
+    background-color: #dadada;
+    outline: none;
+}
+
+.btn:hover, .m-btn:hover, .main-header button:hover {
+    border: 2px solid rgba(0, 0, 0, 0.253);
+    background-color: rgba(0, 0, 0, 0.048);
+    transition: .1s;
+}
+
+.btn:active, .m-btn:active, .main-header button:active {
+    background-color: rgba(0, 0, 0, 0.342);
+}
+
+.num {
+    background-color: white;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.operator {
+    font-size: 30px;
+    font-weight: 100;
+}
+
+.operator:hover {
+    background-color: rgba(5, 5, 255, 0.575);
+    color: white;
+}
+
+.operator:active {
+    background-color: rgba(5, 5, 255, 0.199);
+}
+
+.bkspc img {
+    height: 20px;
+}
+
+.header {
+    text-align: right;
+    padding: 10px;
+}
+
+.exp-display {
+    font-size: 14px;
+    color: rgb(73, 73, 73);
+}
+
+.result-display {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.exp {
+    height: 15px;
+}
+
+.first-row {
+    display: flex;
+    gap: 4px;
+    margin-bottom: 4px;
+}
+
+.m-btn {
+    height: 30px;
+    width: 60px;
+    background-color: transparent;
+    border: none;
+    font-weight: bold;
+    font-size: 13px;
+    outline: none;
+}
+
+.m-hide {
+    color: rgb(121, 121, 121);
+}
+
+.m-hide:hover {
+    border: none;
+    background-color: transparent;
+}
